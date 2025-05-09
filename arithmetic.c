@@ -1,12 +1,10 @@
-#include<stdio.h>
+#include<stdio.
+int add(int X,int Y){
+int result=X+Y;
+return result;
+}
 int main(){
-int a,b;
-printf("Enter two numbers: ");
-scanf("%d%d",&a,&b);
-a=a+b;
-b=a-b;
-a=a-b;
-printf("After swapping: ");
-printf("a=%d\n",b);
-return 0;
+int a=20,b=40;
+int c=add(a,b);
+printf("Addition:%d",c);
 }
